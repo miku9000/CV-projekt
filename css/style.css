@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --primary-color: #000000;
+    --primary-light: #ffffff;
+    --muted-grey: #a7a7a7;
+    --container-background: #f9f9f9;
+    --heading-font: "Playfair Display", serif;
+    --body-font: "Roberto", sans-serif;
+    --link-fonts: "Quicksand", sans-serif;
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding: 1rem;
+        overflow-x: hidden;
+        line-height: 1.5;
+        font-size: 1.05rem;
+    }
+}
