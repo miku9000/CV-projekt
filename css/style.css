@@ -10,6 +10,44 @@
     --link-fonts: "Quicksand", sans-serif;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+header {
+    margin-top: 2rem;
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+}
+
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header-image-container {
+    transition: opacity 0.3s ease-in-out;
+}
+
+.profile-picture {
+    width: 6,25rem;
+    height: 6,25rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile {
+    flex: 1;
+}
+
 @media (max-width: 480px) {
     .container {
         width: 100%;
