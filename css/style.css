@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap');
 
 :root {
     --primary-color: #000000;
@@ -38,8 +39,8 @@ header {
 }
 
 .profile-picture {
-    width: 6,25rem;
-    height: 6,25rem;
+    width: 6.25rem;
+    height: 6.25rem;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -56,4 +57,64 @@ header {
         line-height: 1.5;
         font-size: 1.05rem;
     }
+}
+
+.container {
+    max-width: 60%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #C5C3C6;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+body {
+    background-color: #DCDCDD;
+}
+
+header {
+    padding-top: 1rem;
+}
+
+main {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer {
+    padding-bottom: 1rem;
+}
+
+.title {
+    font-size: 2rem;
+    color: #1985A1;
+}
+
+.title2 {
+    font-size: 1.5rem;
+    color: #4C5C68;
+}
+
+.title3 {
+    font-size: 1.2rem;
+    color: #4C5C68;
+}
+
+p, li, span, i {
+    color: #46494C;
+}
+
+p, h1, h2, h3, li, span, i {
+    font-family: "Quicksand", serif;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    list-style-type: none;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
 }
