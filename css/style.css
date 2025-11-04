@@ -34,7 +34,7 @@ header {
     gap: 1rem;
 }
 
-.header-image-container {
+.header-image-container img {
     transition: opacity 0.3s ease-in-out;
 }
 
